@@ -9,7 +9,7 @@ export default function Navbar({ navigation }: any) {
           <Text style={styles.text}>Home</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.navigate("Login")}>
-          <Text style={styles.text}>Login</Text>
+          <Text style={styles.text}>Logout</Text>
         </TouchableOpacity>
       </View>
     </View>
